@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* Styling in navigation bar*/
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-menu {
+    margin-right: -690px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-right: 25px;
+}
+
+.my-logo img {
+    mix-blend-mode: screen;
+    margin-top: 10px;
+    width: 70px;
+    height: auto;
+    margin-left: 25px;
+}
+
+li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+#profile-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-right: 25px;
+}
+
+#profile-link:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Styling for the container of all the contents*/
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Styling for banner or home*/
+.home-banner img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.published-date {
+    font-size: 0.7rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.em {
+    color: blue;
+}
+
+/* Styling in About Me*/
+.profile {
+    display: flex;
+    width: 400px;
+    height: auto;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;          
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+#link {
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 20px;
+    height: auto;
+}
+#about-me {
+    text-align: justify;
+}
+
+/* Styling in My Post*/
+.post-container {
+    margin: 2px;
+    margin: 20px 0;
+}
+
+.post-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.post-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post-description {
+    text-align: left;
+    margin: 6px;
+}
+
+/*where i put changes*/
+#view-more {
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    padding-right: 0px;
+    justify-content: right;
+    font-size: 0.7rem;
+}
+
+.post-card img {
+    width: 240px;
+    height: auto;
+    border-radius: 10px;
+    list-style: none;
+    margin: 6.5px;
+}
+
+/* styles for footer*/
+footer {
+    width: 100%;
+    font-size: 0.7rem;
+    display: flex;               
+    flex-direction: column;       
+    justify-content: center;
+    align-items: center;
+    background-color: #8d8f91;
+    color: #fff;
+    padding: 10px;
+    margin-top: 200px;
+}
+/* This applies to all images*/
+img {
+    border-radius: 20px;
+}
+/* This applies to all section*/
+section {
+    margin-bottom: 50px;
+}
